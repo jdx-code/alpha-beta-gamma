@@ -1,12 +1,12 @@
 import React from 'react'
-import Login from './component/Login/Login'
-import Signup from './component/Signup/Signup'
+import Navbar from './component/Navbar/Navbar'
+import Panel from './Panel/Panel'
 
 const App = () => {
   return (
     <div>
-      <Login/>
-      <Signup/>
+      <Navbar/>
+      <Panel/>
     </div>
   )
 }
